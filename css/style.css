@@ -1,13 +1,11 @@
-body {
-    background-color: yellowgreen;
-}
-
 .primary_btn {
     background-color: blue;
     color: #fff;
     padding: 8px 10px;
     border-radius: 5px;
     border: none;
+    cursor: default;
+    text-decoration: none;
 }
 .secondary_btn{
     background-color: grey;
@@ -15,6 +13,8 @@ body {
     padding: 8px 10px;
     border-radius: 5px;
     border: none;
+    cursor: default;
+    text-decoration: none;
 }
 .success_btn{
     background-color: green;
@@ -22,6 +22,8 @@ body {
     padding: 8px 10px;
     border-radius: 5px;
     border: none;
+    cursor: default;
+    text-decoration: none;
 }
 .danger_btn{
     background-color: red;
@@ -29,6 +31,8 @@ body {
     padding: 8px 10px;
     border-radius: 5px;
     border: none;
+    cursor: default;
+    text-decoration: none;
 }
 .warning_btn{
     background-color: yellow;
@@ -36,6 +40,8 @@ body {
     padding: 8px 10px;
     border-radius: 5px;
     border: none;
+    cursor: default;
+    text-decoration: none;
 }
 .info_btn{
     background-color: lightskyblue;
@@ -43,6 +49,8 @@ body {
     padding: 8px 10px;
     border-radius: 5px;
     border: none;
+    cursor: default;
+    text-decoration: none;
 }
 .light_btn{
     background-color: lightcyan;
@@ -50,6 +58,8 @@ body {
     padding: 8px 10px;
     border-radius: 5px;
     border: none;
+    cursor: default;
+    text-decoration: none;
 }
 .dark_btn{
     background-color: black;
@@ -57,20 +67,13 @@ body {
     padding: 8px 10px;
     border-radius: 5px;
     border: none;
-}
-.link_btn{
-    background-color: white;
-    color: blue;
-    padding: 8px 10px;
-    border-radius: 5px;
-    border: none;
-    text-decoration: none;
     cursor: default;
+    text-decoration: none;
 }
 .link{
     text-decoration: underline;
     cursor: pointer;
     color: blue;
-    background-color: white;
-    border:0px
+    background-color: transparent;
+    border: none;
 }
